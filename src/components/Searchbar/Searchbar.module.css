@@ -1,0 +1,18 @@
+.form {
+  padding: 120px 10px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.input {
+  width: 300px;
+  height: 36px;
+  font-size: 30px;
+}
+.button {
+  height: 41px;
+  width: 80px;
+  font-size: large;
+}

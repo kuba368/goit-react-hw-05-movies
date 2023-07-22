@@ -1,0 +1,38 @@
+.movieList {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.movieListItem {
+  display: flex;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 260px;
+  height: auto;
+  box-shadow: 0 5px 8px 0 rgb(79 90 93 / 8%);
+  transition: 1s;
+  background-color: darkkhaki;
+  border-radius: 4px;
+  overflow: hidden;
+  &:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 1s;
+  }
+}
+.movieImage {
+  width: 260px;
+  height: 390px;
+  border-radius: 4px;
+}
+.movieTitle {
+  font-size: x-large;
+  margin: 0 auto;
+  padding: 15px;
+}
+.movieLink {
+  text-decoration: none;
+  color: black;
+}

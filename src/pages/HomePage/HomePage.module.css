@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  background-color: khaki;
+  margin: auto;
+}
+.header {
+  font-size: xxx-large;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 200px;
+}

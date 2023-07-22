@@ -1,0 +1,19 @@
+.listItem {
+  margin-bottom: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  border: 1px solid black;
+  max-width: 600px;
+  border-radius: 5px;
+}
+.listName {
+  margin: 0;
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 300px;
+}
